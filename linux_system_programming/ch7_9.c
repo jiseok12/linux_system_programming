@@ -15,7 +15,7 @@ int main(){
 
     if(pid==0){
         printf("--> Child process\n");
-        sleep(3);
+        sleep(5);
         exit(3);
     }
 
